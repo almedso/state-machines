@@ -1,0 +1,11 @@
+[package]
+name = "qlrl"
+version = "0.1.0"
+edition = "2021"
+
+authors = ["Volker Kempert <volker.kempert@almedso.de>"]
+license = "MIT"  # see LICENSE.md
+
+[dependencies]
+
+[dev-dependencies]

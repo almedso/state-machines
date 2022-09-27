@@ -1,0 +1,13 @@
+[package]
+name = "example-apps"
+description = "State machine example implementations"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+threads-on-host = { path = "../runtime_contexts/threads-on-host" }
+qlrl = { path = "../qlrl" }
+env_logger = "0.9.1"
+log = "0.4.17"

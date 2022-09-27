@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "qlrl",
+    "runtime_contexts/threads-on-host",
+    "example-apps"
+]
