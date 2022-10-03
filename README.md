@@ -1,9 +1,21 @@
 # State machine experiments
 
-This repository contains a Rust workspace project to deal with various state machine.
+This repository contains a Rust workspace project to deal with various state machine concepts and implementations.
 
 [![Build Status](https://github.com/rust-lang/mdBook/workflows/CI/badge.svg?event=push)](https://github.com/almedso/qlrl/actions?workflow=CI)
 
+
+## General
+
+```mermaid
+erDiagram
+
+STATE_MACHINE_FRAMEWORK ||--|{ STATE_MACHINE_DEFINITION : uses
+STATE_MACHINE_DEFINITION ||--|{ EXECUTION_ENVIRONMENT : runs
+STATE_MACHINE_FRAMEWORK |{--|| STATE_MACHINE_INTERFACE : requires
+STATE_MACHINE_INTERFACE ||--|{ EXECUTION_ENVIRONMENT : provides
+
+```
 
 ## State machine frameworks
 
